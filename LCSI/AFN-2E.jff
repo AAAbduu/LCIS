@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>922.0</x>
+			<y>100.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>855.0</x>
+			<y>256.0</y>
+		</state>
+		<state id="2" name="q2">
+			<x>618.0</x>
+			<y>389.0</y>
+		</state>
+		<state id="3" name="q3">
+			<x>976.0</x>
+			<y>402.0</y>
+		</state>
+		<state id="4" name="q4">
+			<x>441.0</x>
+			<y>487.0</y>
+		</state>
+		<state id="5" name="q5">
+			<x>826.0</x>
+			<y>584.0</y>
+			<final/>
+		</state>
+		<state id="6" name="q6">
+			<x>1116.0</x>
+			<y>476.0</y>
+		</state>
+		<state id="7" name="q7">
+			<x>1323.0</x>
+			<y>600.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>5</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>4</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>1</to>
+			<controlx>497</controlx>
+			<controly>314</controly>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read>c</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>6</to>
+			<read>c</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>7</to>
+			<read>c</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>1</to>
+			<controlx>1154</controlx>
+			<controly>318</controly>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>6</to>
+			<read>c</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>5</to>
+			<read>a</read>
+		</transition>
+	</automaton>
+</structure>
