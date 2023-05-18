@@ -6,6 +6,6 @@ Ejercicios resueltos de la asignatura de LCIS en inglès que se imparte en la UP
 
 El contenido de este repositorio tiene carácter informativo y o educativo.
 
-Cualquier distribución o copia de este material està prohibido y tal acciòn tendrà consecuencias.
+Cualquier distribución o copia de este material està prohibido y tal acción tendrá consecuencias.
 
 Espero que os ayude. :)
